@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "make": "Farrari",
+        "model": "Enzo",
+        "colour": "Red",
+        "year": "2003"
+    },
+    {
+        "id": "2",
+        "make": "Porsche",
+        "model": "911 GT3",
+        "colour": "Lime Green",
+        "year": "2020"
+    }
+]
