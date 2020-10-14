@@ -1,0 +1,24 @@
+{
+  "name": "ecsd-express-project",
+  "version": "1.0.0",
+  "description": "REST API build using Express.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sumner1185/ecsd-express-project.git"
+  },
+  "author": "alastair.sumner@ecs-digital.co.uk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sumner1185/ecsd-express-project/issues"
+  },
+  "homepage": "https://github.com/Sumner1185/ecsd-express-project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.5.3"
+  }
+}
