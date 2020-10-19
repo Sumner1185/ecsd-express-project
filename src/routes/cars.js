@@ -15,6 +15,26 @@ router.post('/', (req, res) => {
     }
 })
 
+router.put('/:id', (req, res) => {
+    const { id } = req.params
+    console.log(id)
+    const { make, model, colour, year } = req.body
+    console.log(req.body)
+    if (id && make && model && colour && year) {
+        cars.forEach(car => {
+            if (car.id === id) {
+                car.make = make
+                car.model = model
+                car.colour = colour
+                car.year = year
+            }
+        })
+        res.json({ id, make, model, colour, year })
+    } else {
+        res.status(400).json({ error: 'Missing information' })
+    }
+})
+
 router.delete('/:id', (req, res) => {
     const { id } = req.params
     if (id) {
